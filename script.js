@@ -14,9 +14,9 @@ if (attackPower > defensePower &&  haveShield === 'Não' || haveShield === 'não
     damageInlife = damage - life
     if (damageInlife < 0) {
         damageInlife *= -1
-        alert(`${pers1} atacou. ${pers2} sofreu ${damage} de dano e não possui escudo. Sua vida agora é ${damageInlife}`) 
+        alert(`${pers1} atacou. ${pers2} sofreu ${damage} de dano e não possui escudo. Sua vida agora é ${damageInlife}.`) 
     } else {
-        alert(`${pers1} atacou. ${pers2} sofreu ${damage} de dano e não possui escudo. Sua vida agora é ${damageInlife}`) 
+        alert(`${pers1} atacou. ${pers2} sofreu ${damage} de dano e não possui escudo. Sua vida agora é ${damageInlife}.`) 
     }
     
 } else if (attackPower > defensePower && haveShield === 'Sim' || haveShield === 'sim') {
@@ -25,9 +25,9 @@ if (attackPower > defensePower &&  haveShield === 'Não' || haveShield === 'não
     damageInlife = damage - life
     if (damageInlife < 0) {
         damageInlife *= -1
-        alert(`${pers1} atacou. ${pers2} sofreu ${damage} de dano e possui um escudo. Sua vida agora é ${damageInlife}`) 
+        alert(`${pers1} atacou. ${pers2} sofreu ${damage} de dano e possui um escudo. Sua vida agora é ${damageInlife}.`) 
     } else {
-        alert(`${pers1} atacou. ${pers2} sofreu ${damage} de dano e possui um escudo. Sua vida agora é ${damageInlife}`) 
+        alert(`${pers1} atacou. ${pers2} sofreu ${damage} de dano e possui um escudo. Sua vida agora é ${damageInlife}.`) 
     }
 } else if (attackPower <= defensePower) {
     alert(`${pers1} atacou, mas não afetou ${pers2}. Nenhum dano causado!`)
